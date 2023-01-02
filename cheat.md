@@ -1,4 +1,4 @@
--   rancher lograncher log 
+-   rancher log
     ```sh
     kubectl logs --all-containers --since=1h -l app.kubernetes.io/instance=namaservice -n namaNS | grep '"status_code":500"'
 
