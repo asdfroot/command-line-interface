@@ -77,3 +77,8 @@
     ```sh
     stern -n NameSpace NamaPod --color always | grep 'status_code":5'
     ```
+
+-   seteleh ubah jaringan 8.8.8
+    ```sh
+    echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
+    ```
