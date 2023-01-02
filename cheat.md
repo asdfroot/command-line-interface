@@ -72,3 +72,8 @@
     ```sh
     helm rollback [RELEASE_NAME] -n NameSpace [NUMBER_REVISON]
     ```
+    
+-   cari log menggunakan stern
+    ```sh
+    stern -n NameSpace NamaPod --color always | grep 'status_code":5'
+    ```
