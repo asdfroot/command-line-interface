@@ -9,9 +9,15 @@
     kubectl scale deploy namaservice -n namaNS --replicas=5(jumlah 5)
     ```
 
--   restart service cli
+-   restart service tertentu cli
     ```sh
     kubectl get pods -n namaNS | grep -i namaservice | awk '{print $1}' | xargs kubectl delete pods -n namaNS
+
+    ```
+
+-   restart semua service di namespace cli
+    ```sh
+    kubectl get pod -n namaNS | awk '{print $1}' | xargs kubectl delete pod -n namaNS
 
     ```
 
