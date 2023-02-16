@@ -88,3 +88,18 @@
     ```sh
     echo "nameserver 8.8.8.8" | sudo tee /etc/resolv.conf > /dev/null
     ```
+    
+-   kubernetes. melihat info konteks / melihat nama cluster saat ini 
+    ```sh
+    kubectl config get-contexts
+    ```    
+    
+-   kubernetes. pindah konteks / pindah cluster 
+    ```sh
+    kubectl config use-context NamaCluster
+    ```  
+    
+-   kubernetes. pindah NameSpace / pindah NameSpace tanpa perintah Namespace 
+    ```sh
+    kubectl config set-context --current --namespace NamaNStujuan
+    ```      
