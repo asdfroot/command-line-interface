@@ -102,4 +102,14 @@
 -   kubernetes. pindah NameSpace / pindah NameSpace tanpa perintah Namespace 
     ```sh
     kubectl config set-context --current --namespace NamaNStujuan
-    ```      
+    ```
+    
+-   izin/permission file/folder akses nginx
+    ```sh
+    sudo chown www-data:www-data ~/NamaFolder -R
+    ```
+        
+-   kirim file antar planet scp
+    ```sh
+    scp Namafile.3gp NamaUser@ipDomain:/nama/folder/tujuan
+    ```  
