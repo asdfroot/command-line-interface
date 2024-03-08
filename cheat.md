@@ -116,5 +116,5 @@
 
 -   kirim file pluto ke bumi | scp
     ```sh
-    scp Namafile.3gp NamaUser@ipDomain:/nama/folder/tujuan
+    scp NamaUser@ipDomain:/nama/folder/Namafile.3gp /home/tujuan/folder
     ```  
