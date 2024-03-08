@@ -109,7 +109,12 @@
     sudo chown www-data:www-data ~/NamaFolder -R
     ```
         
--   kirim file antar planet scp
+-   kirim file bumi ke pluto | scp
+    ```sh
+    scp Namafile.3gp NamaUser@ipDomain:/nama/folder/tujuan
+    ```  
+
+-   kirim file pluto ke bumi | scp
     ```sh
     scp Namafile.3gp NamaUser@ipDomain:/nama/folder/tujuan
     ```  
