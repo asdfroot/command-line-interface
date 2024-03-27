@@ -117,4 +117,9 @@
 -   kirim file pluto ke bumi | scp
     ```sh
     scp NamaUser@ipDomain:/nama/folder/Namafile.3gp /home/tujuan/folder
-    ```  
+    ```
+
+-   perbedaan isi teks file
+    ```sh
+    diff -c namafile1.txt namafile2.txt
+    ```      
