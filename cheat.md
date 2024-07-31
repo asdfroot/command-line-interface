@@ -119,6 +119,11 @@
     scp NamaUser@ipDomain:/nama/folder/Namafile.3gp /home/tujuan/folder
     ```
 
+-   hapus log catalina.out
+    ```sh
+    cat /dev/null > catalina.out
+    ```
+
 -   perbedaan isi teks file
     ```sh
     diff -c namafile1.txt namafile2.txt
