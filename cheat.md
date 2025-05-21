@@ -127,4 +127,10 @@
 -   perbedaan isi teks file
     ```sh
     diff -c namafile1.txt namafile2.txt
-    ```      
+    ```
+
+-   cari dan hapus file dengan grep
+    ```sh
+    ls | grep -- '-nama-file' | xargs rm -f
+    ```
+          
